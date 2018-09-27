@@ -1,5 +1,5 @@
 __author__ = 'johanna gutierres - nestor romero'
 
 class Arreglo:
-    def numeroElementos(cadena):
-        pass
+    def numeroElementos(self, cadena):
+        return 0
