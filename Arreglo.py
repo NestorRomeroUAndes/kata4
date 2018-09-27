@@ -2,4 +2,7 @@ __author__ = 'johanna gutierres - nestor romero'
 
 class Arreglo:
     def numeroElementos(self, cadena):
-        return 0
+        if len(cadena) == 0:
+            return 0
+        else:
+            return 1
