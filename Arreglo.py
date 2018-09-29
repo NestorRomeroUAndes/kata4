@@ -11,6 +11,6 @@ class Arreglo:
             maximo = int(max(cadena2))
             suma = 0
             for elemento in cadena2:
-                suma = suma + int(elemento)
+                suma = suma + float(elemento)
             promedio = suma / tamano
             return [tamano,minimo,maximo,promedio]
