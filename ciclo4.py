@@ -12,4 +12,8 @@ class ciclo4(TestCase):
 
     def test_DosNumeroUnMinimoUnMaximoPromedio(self):
         self.assertEqual(Arreglo().numeroElementos("1,3"), [2, 1, 3, 2],
+                         "calculo de dos elementos numero minimo 1 numero maximo 3 promedio 2")
+
+    def test_DosNumeroUnMinimoUnMaximoPromedio(self):
+        self.assertEqual(Arreglo().numeroElementos("1,3,4,5"), [4, 1, 5, 3.25],
                          "calculo de dos elementos numero minimo 1 numero maximo 1 promedio 1")
