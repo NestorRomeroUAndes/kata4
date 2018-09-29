@@ -7,4 +7,5 @@ class Arreglo:
         if len(cadena) == 0:
             return [0,0]
         else:
-            return [tamano,1]
+            minimo = int(min(cadena2))
+            return [tamano,minimo]
