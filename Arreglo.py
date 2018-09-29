@@ -7,4 +7,4 @@ class Arreglo:
         if len(cadena) == 0:
             return [0,0]
         else:
-            return tamano
+            return [1,1]
