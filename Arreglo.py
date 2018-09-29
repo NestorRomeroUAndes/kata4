@@ -8,4 +8,5 @@ class Arreglo:
             return [0,0,0]
         else:
             minimo = int(min(cadena2))
-            return [tamano,minimo,1]
+            maximo = int(max(cadena2))
+            return [tamano,minimo,maximo]
