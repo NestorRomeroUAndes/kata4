@@ -11,3 +11,6 @@ class ciclo2(TestCase):
 
     def test_dosNumerosUnMinimo(self):
         self.assertEqual(Arreglo().numeroElementos("1,2"), [2, 1], "calculo de elementos 2 y numero minimo 1")
+
+    def test_tresNumerosUnMinimo(self):
+        self.assertEqual(Arreglo().numeroElementos("4,2,3"), [3, 2], "calculo de elementos 2 y numero minimo 1")
